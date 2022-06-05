@@ -18,7 +18,7 @@ const client = new Discord.Client({
 });
 
 client.login(
-	"OTgyNzQ3NTUzOTMyMTE1OTc4.GP6MmF.b6tf-i10ILXanPFcUHoyv-8XfYXbsAKnMAkeuc"
+	"OTgyNzQ3NTUzOTMyMTE1OTc4.GsekGX.8kckqvEG_Kr0uXWJAnKtCRs3c9SzwtRfy-4vlE"
 );
 let ready = false;
 client.on("ready", () => {
