@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/5b7cc92f-c249-4549-b843-1285775d260e/resourceGroups/appsvc_linux_centralus/providers/Microsoft.Web/sites/discord-bot-jh",
+    "appService.deploySubpath": "."
+}
