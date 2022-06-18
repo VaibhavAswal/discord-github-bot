@@ -28,9 +28,13 @@ client.on("ready", () => {
 
 client.on("messageCreate", (msg) => {
 	if (msg.content.startsWith("bh")) {
-		msg.reply(
-			"Bot Under construction!\nFollow **That_back.bencher** for more!!!"
-		);
+		if (msg.content === "bh bot test") {
+			msg.reply("Test passed\nBot working at 8080 ngrok url: ******** ");
+		} else {
+			msg.reply(
+				"Bot Under construction!\nFollow **That_back.bencher** for more!!!"
+			);
+		}
 	} else if (msg.content.startsWith("bakchod")) {
 		msg.reply("ewww, i hate that word\ncall me bh");
 	}
@@ -39,7 +43,7 @@ client.on("messageCreate", (msg) => {
 app.post("/", (req, res) => {
 	const sendUpdate = function () {
 		if (ready == true) {
-			client.channels.fetch("979831340000239709").then((channel) => {
+			client.channels.fetch("982339441580445707").then((channel) => {
 				const exampleEmbed = new Discord.MessageEmbed()
 					.setColor("#CC00CC")
 					.setURL("https://discord.js.org/")
